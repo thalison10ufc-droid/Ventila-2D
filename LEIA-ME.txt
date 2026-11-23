@@ -1,0 +1,25 @@
+VENTILA 2D — PWA v4.0
+
+Este pacote contém a mesma versão do simulador incluída na extensão TH3D Ventilação 0.4.0.
+
+RECURSOS INCLUÍDOS
+- Janela configurável (largura, orientação e estado aberto/fechado).
+- Porta com orientação do vão, dobradiça, lado e ângulo de abertura.
+- Brise vertical e horizontal com quantidade, espaçamento e ângulo.
+- Linha A-A' e corte esquemático da temperatura amostrada na planta.
+- Exaustor de teto com zona de sucção e remoção visual de partículas na saída.
+- Controles de temperatura e vento, além das ferramentas anteriores do simulador.
+
+COMO INSTALAR COMO PWA NO TABLET
+1. Extraia todos os arquivos mantendo a estrutura de pastas.
+2. Publique o conteúdo da pasta em um endereço HTTPS (por exemplo, hospedagem estática).
+3. Abra o endereço no Chrome do tablet.
+4. Use o menu do Chrome > Instalar aplicativo ou Adicionar à tela inicial.
+5. Abra o aplicativo uma vez com internet para o service worker armazenar os arquivos.
+6. Depois disso, o app shell pode abrir offline.
+
+IMPORTANTE
+- PWA exige HTTPS (ou localhost para testes); abrir index.html diretamente como arquivo não instala o PWA.
+- O corte A-A' desta versão é esquemático e não recupera alturas reais de paredes, portas, janelas ou telhado a partir de uma planta 2D.
+- Janelas, portas e brises adicionados diretamente no simulador são elementos 2D de representação; não criam componentes no modelo SketchUp.
+- A simulação é qualitativa e não substitui CFD.
