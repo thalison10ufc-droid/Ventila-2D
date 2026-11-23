@@ -23,3 +23,10 @@ IMPORTANTE
 - O corte A-A' desta versão é esquemático e não recupera alturas reais de paredes, portas, janelas ou telhado a partir de uma planta 2D.
 - Janelas, portas e brises adicionados diretamente no simulador são elementos 2D de representação; não criam componentes no modelo SketchUp.
 - A simulação é qualitativa e não substitui CFD.
+
+
+VERSAO 5 - Atualizacao:
+- Tela inicial com escolha entre pagina em branco e quarto de exemplo.
+- Atalho 'Pagina em branco' para limpar a cena e recomecar.
+- Paredes do quarto automatico reduzidas de duas celulas para uma celula, aproximando a representacao do plugin TH3D.
+- Cache do service worker atualizado para v5.
